@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>Car Listings</title>
+  </head>
+  <body>
+    <header>
+      <nav id="nav" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"
+            ><img width="100" src="images/logo.png" alt="This is a Logo"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#cars"
+                  >Cars</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#enquiries">Enquiries</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main class="container-sm d-flex flex-column justify-content-center">
+      <section class="heading text-center mt-5 fw-bold">
+        <h1>Vintage Cars For Hire</h1>
+      </section>
+      <section
+        id="cars"
+        class="cars mt-5 d-flex flex-wrap justify-content-center"
+      >
+        <div class="card me-3" style="width: 18rem">
+          <img
+            src="images/pic1.jpg"
+            class="card-img-top px-1"
+            alt="Volkswagen Vintage Golf"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Vintage Volkswagen Golf</h5>
+            <p class="card-text">Car Type: Sedan</p>
+            <p class="card-text">Doors: 2</p>
+          </div>
+        </div>
+        <div class="card me-3" style="width: 18rem">
+          <img
+            src="images/pic2.jpg"
+            class="card-img-top px-1"
+            alt="Volkswagen Beetle"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Vintage Volkswagen Beetle</h5>
+            <p class="card-text">Car Type: Hatch</p>
+            <p class="card-text">Doors: 2</p>
+          </div>
+        </div>
+        <div class="card me-3" style="width: 18rem">
+          <img
+            src="images/pic3.jpg"
+            class="card-img-top px-1"
+            alt="Volkswagen Kombi Surf Bus"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Vintage Volkswagen Kombi Surf Bus</h5>
+            <p class="card-text">Car Type: Bus</p>
+            <p class="card-text">Doors: 3</p>
+          </div>
+        </div>
+        <div class="card me-3" style="width: 18rem">
+          <img
+            src="images/pic4.jpg"
+            class="card-img-top px-1"
+            alt="Volkswagen Hip Hop Car"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Vintage Hip Hop Car</h5>
+            <p class="card-text">Car Type: Sedan</p>
+            <p class="card-text">Doors: 2</p>
+          </div>
+        </div>
+      </section>
+      <section id="enquiries" class="mt-5 d-flex justify-content-center">
+        <div class="enquiries-content w-75 my-5">
+          <form action="" class="bg-light">
+            <h2 class="mx-3">Enquiries</h2>
+            <div class="mb-3 mx-3">
+              <label for="fullname" class="form-label">Full Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="fullname"
+                placeholder="Full Name"
+              />
+            </div>
+            <div class="mb-3 mx-3">
+              <label for="email" class="form-label">Email address</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-3 mx-3">
+              <label for="form-select" class="form-label">Choose a Car</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Vintage Volkswagen Golf</option>
+                <option value="1">Vintage Volkswagen Beetle</option>
+                <option value="2">Vintage Volkswagen Kombi Surf Bus</option>
+                <option value="3">Vintage Volkswagen Hip Hop Car</option>
+              </select>
+            </div>
+            <div class="mb-3 mx-3">
+              <label for="comment" class="form-label">Comments</label>
+              <textarea class="form-control" id="comment" rows="3"></textarea>
+            </div>
+
+            <button class="mb-3 mx-3 btn btn-primary">Submit</button>
+          </form>
+        </div>
+      </section>
+
+      <section id="contact" class="mt-2 d-flex justify-content-center">
+        <div class="row contact-content w-75">
+          <div class="col-md-6 address">
+            <h2>Contact</h2>
+            <p class="fw-bold">D' Car Sales</p>
+            <p>Address: 45 Cummins St. Unanderra NSW 2526</p>
+            <p>Phone: 123456789</p>
+            <p>Email: dcarsales@gmail.com</p>
+          </div>
+          <div class="map">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3290.0296802502276!2d150.83573801582887!3d-34.45139445696263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b1310a20622ed0d%3A0xf0357a4f971106d0!2s45%20Cummins%20St%2C%20Unanderra%20NSW%202526!5e0!3m2!1sen!2sau!4v1621469803668!5m2!1sen!2sau"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </section>
+      <section class="d-flex justify-content-end me-5">
+        <a href="#">Back to Top</a>
+      </section>
+    </main>
+
+    <footer class="text-center mt-5 mb-1 fw-bold">
+      Copyright &copy;Jose All Rights Reserved 2021
+    </footer>
+    <script src="js/bootstrap.js"></script>
+  </body>
+</html>
