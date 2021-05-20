@@ -6,7 +6,7 @@ body {
 
 .heading > h1 {
   text-transform: uppercase;
-  color: gray;
+  color: rgb(4, 128, 111);
 }
 
 /* cards */
